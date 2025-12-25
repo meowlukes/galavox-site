@@ -1,0 +1,19 @@
+{
+  "name": "galavox-number-converter",
+  "version": "1.0.0",
+  "description": "Universal number system converter with custom Galavox base-89 system",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": ["number-converter", "base-converter", "galavox", "math"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/galavox-number-converter.git"
+  },
+  "homepage": "https://yourusername.github.io/galavox-number-converter/"
+}

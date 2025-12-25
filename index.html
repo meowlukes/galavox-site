@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galavox - Конвертер систем счисления</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="bg-gradient"></div>
+    <div class="grid"></div>
+    <div class="stars" id="stars"></div>
+    <div class="scan-line"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <h1>GALAVOX</h1>
+            </div>
+            <div class="subtitle">Универсальный конвертер систем счисления</div>
+        </header>
+
+        <div class="converter-box">
+            <div class="systems-grid">
+                <div class="select-wrapper">
+                    <label class="select-label">Исходная система</label>
+                    <select id="baseFrom"></select>
+                </div>
+
+                <button class="swap-btn" id="swapBtn" title="Поменять местами">
+                    <span class="swap-icon">⇄</span>
+                </button>
+
+                <div class="select-wrapper">
+                    <label class="select-label">Целевая система</label>
+                    <select id="baseTo"></select>
+                </div>
+            </div>
+
+            <div class="input-section">
+                <label class="input-label">Введите число для конвертации</label>
+                <input type="text" id="inputNumber" placeholder="Например: 42, DEADBEEF, 1010, 899...">
+            </div>
+
+            <div class="result-wrapper" id="resultBox">
+                <div class="result-title">Результат конвертации</div>
+                <div class="result-value pulse" id="result">—</div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-card">
+                    <h3>Система 089</h3>
+                    <p>Уникальная тернарная система Galavox использует цифры 0, 8 и 9, где 0=0, 8=1, 9=2.<br>Пример: 10₁₀ = 808₀₈₉</p>
+                </div>
+                <div class="info-card">
+                    <h3>Расширенная поддержка</h3>
+                    <p>Более 40 систем счисления с историческими названиями: от Binary до Base-95</p>
+                </div>
+                <div class="info-card">
+                    <h3>Универсальные символы</h3>
+                    <p>Base 2–36: 0–9, A–Z<br>Base 37–62: + a–z<br>Base 63–95: расширенный printable ASCII</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="src/js/stars.js"></script>
+    <script type="module" src="src/js/ui.js"></script>
+</body>
+</html>
