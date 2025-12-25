@@ -41,8 +41,7 @@ Universal number system converter with support for the unique Galavox system (Ba
 
 ### Online Version
 
-Visit the live demo at [galavox.space](https://galavox.space) or [GitHub Pages](https://yourusername.github.io/galavox-number-converter/)
-
+Visit the live demo at [galavox.space](https://galavox.space)
 ## 📖 Usage
 
 1. Select the source number system
@@ -99,4 +98,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 - Design inspired by sci-fi interfaces
 - Historical number system names from various sources
+
 - Special thanks to the Galavox community at [galavox.space](https://galavox.space)
